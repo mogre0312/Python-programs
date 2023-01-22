@@ -1,0 +1,7 @@
+person_file1=open('file1.txt','w')
+person_file1.write('mandar=juicewala')
+print(person_file1)
+#person_file1.close()
+person_file1.write('\n india=delhi')
+person_file1=open('file1.txt','a')
+person_file1.write('\n madhya pradesh= bhopal')
